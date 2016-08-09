@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\algo">
+      <UniqueIdentifier>{d4bd56ab-9a4a-45bb-aa12-c5e29cd71baa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\structure">
+      <UniqueIdentifier>{98bdb8ac-5a12-47f5-ba77-70eec3c7efe7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="tess.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="simpleedge.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="hillclimb.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="bresenham.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="lineeval.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="connectlines.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hough.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="smooth_angle.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="minrect.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="linefit.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="hull_stackoverflow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="text.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="imgcc.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+    <ClCompile Include="plancv.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="graph.cpp">
+      <Filter>Source Files\structure</Filter>
+    </ClCompile>
+    <ClCompile Include="quadtree.cpp">
+      <Filter>Source Files\structure</Filter>
+    </ClCompile>
+    <ClCompile Include="raster.cpp">
+      <Filter>Source Files\structure</Filter>
+    </ClCompile>
+    <ClCompile Include="corners_connect.cpp">
+      <Filter>Source Files\algo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bresenham.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="hillclimb.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="simpleedge.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="tess.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="common.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lineeval.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="connectlines.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="hough.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="smooth_angle.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="minrect.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="linefit.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="text.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="imgcc.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+    <ClInclude Include="plancv.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="lineseg.h">
+      <Filter>Source Files\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="graph.h">
+      <Filter>Source Files\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="quadtree.h">
+      <Filter>Source Files\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="raster.h">
+      <Filter>Source Files\structure</Filter>
+    </ClInclude>
+    <ClInclude Include="corners_connect.h">
+      <Filter>Source Files\algo</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
